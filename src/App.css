@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+#regsiter-bg {
+    background-color: rgba(255, 255, 255, 0.583);
+}
+
+#btn-logOut {
+    background-color: rgba(36, 36, 74, 0.737);
+}
+
+
+#input-1 input {
+    color: black;
+    background-color: rgb(238, 238, 238);
+    border-bottom: .5px solid rgb(95, 95, 95);
+}
+
+#h2 {
+    background-color: #ffffff48;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: #ffffff48 solid 1px;
+}
+
+.navLink {
+    color: black;
+    font-weight: 600;
+}
+
+#heart-logo {
+    background-color: rgba(41, 41, 41, 0.788);
+}
+
+.ri-heart-line {
+    font-size: 20px;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 1%;
+    }
+
+    0% {
+        top: 1%;
+    }
+
+    50% {
+        top: 1%;
+    }
+
+    100% {
+        top: 1%;
+    }
+
+    100% {
+        left: 0%;
+    }
+
+}
+
+#create-text {
+    color: rgb(20, 121, 75);
+    position: relative;
+    white-space: nowrap;
+    left: 0%;
+    top: 1%;
+
+    -webkit-animation: fadeIn .3s infinite;
+}
+
+#signup-btn {
+    background-color: rgba(0, 120, 58, 0.985);
+    color: white;
+    font-weight: 600;
+}
+
+#veg-btn {
+    background-color: rgba(16, 107, 60, 0.985);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#nonVeg-btn {
+    background-color: rgba(121, 22, 22, 0.985);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#small {
+    background-color: rgba(63, 63, 63, 0.388);
+}
+
+#h1-bold {
+    font-size: 62px;
+}
