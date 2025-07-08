@@ -3,7 +3,7 @@ import Nav from './Nav'
 import { recipeContext } from '../context/Context';
 import { useNavigate } from 'react-router-dom';
 const MainPage = () => {
-    const { veg, setVeg } = useContext(recipeContext);
+    const [ veg, setVeg ] = useContext(recipeContext);
     const navigate = useNavigate();
     return (
         <div
