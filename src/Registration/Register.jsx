@@ -5,7 +5,7 @@ import { NavLink, useNavigate } from "react-router-dom"
 import { recipeContext } from "../context/Context";
 const Register = () => {
     const { register, handleSubmit, reset } = useForm();
-    const [ veg, setVeg ] = useContext(recipeContext);
+    const [ veg, setVeg] = useContext(recipeContext);
     const navigate = useNavigate();
     const submitHandler = (data) => {
         data.id = nanoid();
