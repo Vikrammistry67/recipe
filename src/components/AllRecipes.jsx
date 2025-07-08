@@ -46,8 +46,8 @@ const AllREcipes = () => {
                 })} */}
                 {
                     recipe.filter((item) => {
-                        return searchData.toLowerCase() === ""
-                            ? item : item.foodname.toLowerCase().includes(searchData)
+                        return searchData === ""
+                            ? item : item.foodname.includes(searchData)
                     })
                         .map((recipe, idx) => {
                             return <div key={idx} className="w-[22.5%] bg-zinc-900 shadow-2xl flex flex-col h-full ">
